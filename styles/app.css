@@ -37,6 +37,9 @@ p {
 .about-section h1 {
   font-size: 64px;
 }
+.contact-page h1 {
+  font-size: 64px;
+}
 
 .hero h2 {
   font-family: var(--body-font);
@@ -127,4 +130,23 @@ h3 {
   font-family: var(--body-font);
   margin: 20px 0 0;
   font-size: 24px;
+}
+.contact-page {
+  background: #ffffff;
+  padding: 120px 60px;
+}
+.contact-page h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--body-font);
+}
+ul :link {
+  color: var(--branding-color);
+}
+
+ul :visited {
+  color: black;
+}
+ul :hover {
+  color: var(--branding-color);
 }
