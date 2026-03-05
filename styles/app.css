@@ -118,3 +118,13 @@ h3 {
 .about-section-content {
   padding: 0px 20px;
 }
+.footer-text {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.work-page h2 {
+  font-family: var(--body-font);
+  margin: 20px 0 0;
+  font-size: 24px;
+}
