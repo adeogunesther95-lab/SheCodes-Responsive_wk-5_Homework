@@ -112,6 +112,9 @@ h3 {
   .about-section h2 {
     font-size: 16px;
   }
+  .contact-box {
+    display: hidden;
+  }
 }
 
 .about-section {
@@ -140,13 +143,51 @@ h3 {
   line-height: 1.5;
   font-family: var(--body-font);
 }
-ul :link {
+ul li {
+  font-family: var(--body-font);
+  font-size: 16px;
+  line-height: 1.5;
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+li a:hover,
+li.active a {
   color: var(--branding-color);
 }
-
-ul :visited {
+footer .email-link {
+  text-decoration: none;
   color: black;
+  font-family: var(--body-font);
+  font-size: 24px;
 }
-ul :hover {
+footer .email-link:hover {
   color: var(--branding-color);
+}
+footer .social-link a {
+  color: var(--branding-color);
+  font-family: var(--body-font);
+  font-size: 24px;
+  margin: 0 20px;
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-link a:hover {
+  background-color: var(--branding-color);
+  color: white;
+}
+.contact-box {
+  background: var(--secondary-color);
+  padding: 40px 100px;
+  border-radius: 8px;
+}
+h4 {
+  font-family: var(--heading-font);
+  font-weight: bold;
+  font-size: 48px;
 }
