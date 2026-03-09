@@ -112,8 +112,20 @@ h3 {
   .about-section h2 {
     font-size: 16px;
   }
-  .contact-box {
-    display: hidden;
+  .hero p {
+    font-size: 16px;
+  }
+  .hero h1 {
+    font-size: 48px;
+  }
+  .hero h2 {
+    font-size: 16px;
+  }
+  footer .email-link {
+    font-size: 12px;
+  }
+  footer .contact-box {
+    padding: 60px 40px;
   }
 }
 
@@ -181,7 +193,7 @@ footer .social-link a:hover {
   background-color: var(--branding-color);
   color: white;
 }
-.contact-box {
+footer .contact-box {
   background: var(--secondary-color);
   padding: 40px 100px;
   border-radius: 8px;
@@ -190,4 +202,8 @@ h4 {
   font-family: var(--heading-font);
   font-weight: bold;
   font-size: 48px;
+}
+
+footer .contact-box p {
+  margin: 0;
 }
